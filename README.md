@@ -31,7 +31,7 @@ npm i polygon-boolean
 Computes a Boolean set operation between `a` and `b`
 
 * `a,b` are polygons represented by lists of loops of points
-* `op` is the operation to apply
+* `op` is the operation to apply.  Possible values include `'and`, 'or', 'xor', 'sub', 'rsub'`
 
 **Returns** A polygon encoding some boolean combination of the components of `a` and `b`
 
