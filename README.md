@@ -1,8 +1,8 @@
 polygon-boolean
 ===============
-A robust polygon Boolean library in under 20 lines of code![^notreally]  Work with *any* kind of polygon, results are accurate to *machine precision*, and under no circumstances will valid input ever crash or produce incorrect output.
+A robust polygon Boolean library in under 20 lines of code!*  Work with *any* kind of polygon, results are accurate to *machine precision*, and under no circumstances will valid input ever crash or produce incorrect output.
 
-[^notreally]: Excluding dependencies
+* *Excluding dependencies*
 
 # Example
 
