@@ -1,0 +1,41 @@
+{
+  "name": "poly-bool",
+  "version": "1.0.0",
+  "description": "Exact polygon boolean operations",
+  "main": "bool.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "overlay-pslg": "^1.0.0",
+    "poly-to-pslg": "^1.0.0",
+    "pslg-to-poly": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/poly-bool.git"
+  },
+  "keywords": [
+    "polygon",
+    "boolean",
+    "exact",
+    "robust",
+    "intersect",
+    "union",
+    "subtract",
+    "and",
+    "or",
+    "xor",
+    "csg"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/poly-bool/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/poly-bool"
+}

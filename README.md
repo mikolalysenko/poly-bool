@@ -1,11 +1,11 @@
-polygon-boolean
-===============
+poly-bool
+=========
 A robust polygon Boolean library in under 20 lines of code! (Excluding dependencies)  Work with *any* kind of polygon, results are accurate to *machine precision*, and under no circumstances will valid input ever crash or produce incorrect output.
 
 # Example
 
 ```javascript
-var polybool = require('polygon-boolean')
+var polybool = require('poly-bool')
 
 var a = [[[-1,-1], [-1,1], [1,1], [1,-1]]]
 var b = [[[0, 0], [0,2], [2,2], [2,0]]]
@@ -22,12 +22,12 @@ console.log(polybool(a, b, 'sub'))
 # Install
 
 ```
-npm i polygon-boolean
+npm i poly-bool
 ```
 
 # API
 
-#### `require('polygon-boolean')(a, b, op)`
+#### `require('poly-bool')(a, b, op)`
 Computes a Boolean set operation between `a` and `b`
 
 * `a,b` are polygons represented by lists of loops of points
